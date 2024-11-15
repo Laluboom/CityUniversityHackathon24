@@ -6,3 +6,8 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// module.exports = {
+//   output: 'export',
+//   basePath: '/your-repo-name',
+// };
