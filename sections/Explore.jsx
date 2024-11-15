@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { TypingText, ExploreCard, TitleText } from '../components';
@@ -11,7 +10,10 @@ import { exploreWorlds } from '../constants';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
-
+  const handleExploreClick = (id) => {
+    setActive(id);
+    console.log(`You clicked on world: ${id}`);
+  };
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
@@ -22,7 +24,7 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| The World" textStyles="text-center" />
-        <TitleText title={<>Choose the world you want <br className="md:block hidden " />to Explore</>} textStyles="text-center" />
+        <TitleText title={<>How it works <br className="md:block hidden " />steps to follow:</>} textStyles="text-center" />
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
@@ -31,7 +33,7 @@ const Explore = () => {
               {...world}
               index={index}
               active={active}
-              handleClick={setActive}
+              handleClick={handleExploreClick}
             />
           ))}
         </div>

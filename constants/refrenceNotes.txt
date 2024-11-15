@@ -1,0 +1,5 @@
+./constants/index.js = most content data to be amended 
+    Product-view-01.png till Product-view-06.png = prescpectives on product/products
+    Product-icon-01.svg till Product-icon-02.svg with 2 USP and descriptions
+    Photo-01.png till Photo-03.png with random content and png images
+Add stamp.png in public file for rotating link to explore through a images

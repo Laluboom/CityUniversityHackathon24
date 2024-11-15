@@ -1,87 +1,86 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/Product-view-01.png',
+    title: 'View 1',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/Product-view-02.png',
+    title: 'View 2',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Hueco Mundo',
+    imgUrl: '/Product-view-03.png',
+    title: 'View 3',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/Product-view-04.png',
+    title: 'View 4',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/Product-view-05.png',
+    title: 'View 5',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading precaution to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Selling Point 1',
+  'Selling point 2',
+  'Selling point 3',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/Product-icon-01.svg',
+    title: 'USP 1',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'USP 1 description',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/Product-icon-02.svg',
+    title: 'USP 2',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'USP 2 description',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse and be happy :)',
+    imgUrl: '/Photo-01.png',
+    title: 'Random Content',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      'Random content description',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/Photo-02.png',
+    title: 'Random Content',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      'Random content description',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/Photo-03.png',
+    title: 'Random Content',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      'Random content description',
   },
 ];
-
 export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
+    link: 'https://twitter.com/',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    link: 'https://www.linkedin.com/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/',
   },
 ];
