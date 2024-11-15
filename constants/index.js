@@ -27,44 +27,44 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Selling Point 1',
-  'Selling point 2',
-  'Selling point 3',
+  'Immediate Connectivity',
+  'Non-Invasive Insight',
+  'Built for Anywhere',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/Product-icon-01.svg',
-    title: 'USP 1',
+    title: 'Global Coverage',
     subtitle:
-      'USP 1 description',
+      'Real-time satellite WiFi connects health data instantly to remote experts, ensuring immediate support in any location',
   },
   {
     imgUrl: '/Product-icon-02.svg',
-    title: 'USP 2',
+    title: 'Portable & Durable',
     subtitle:
-      'USP 2 description',
+      'Lightweight, impact-resistant design makes NIRScan ideal for high-stress environments like disaster zones and remote medical sites',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/Photo-01.png',
-    title: 'Random Content',
+    title: 'Accessibility',
     subtitle:
-      'Random content description',
+      "Affordable and portable, this base model provides real-time physiological data, ideal for general emergency use.",
   },
   {
     imgUrl: '/Photo-02.png',
-    title: 'Random Content',
+    title: 'Inclusivity',
     subtitle:
-      'Random content description',
+      'Its simple interface enables use by diverse healthcare responders and non-specialists, promoting inclusivity in emergency care and telemedicine for all regions.',
   },
   {
     imgUrl: '/Photo-03.png',
-    title: 'Random Content',
+    title: 'Safety',
     subtitle:
-      'Random content description',
+      'Provides safe, instant internal imaging to support emergency diagnosis.',
   },
 ];
 export const socials = [

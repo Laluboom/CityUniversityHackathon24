@@ -5,13 +5,13 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const DeviceUI = () => (
-    <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+    <section className="min-h-screen flex items-center justify-center bg-transparent">
         <motion.div
             variants={staggerContainer}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className={`${styles.innerWidth2} mx-auto flex flex-col`}
+            className="flex flex-col bg-white p-6 rounded-lg shadow-lg w-full sm:w-[80%] md:w-[70%] lg:w-[60%] max-w-[1000px] h-[1000px] overflow-y-auto"
         >
             {/* Home Screen with Start Button */}
             <motion.div
@@ -33,7 +33,7 @@ const DeviceUI = () => (
                 className="relative flex flex-col items-center bg-white rounded-xl shadow-lg p-4 mb-6"
             >
                 <h3 className="font-bold text-lg mb-2">Live Scan</h3>
-                <img src="/scan-image-placeholder.jpg" alt="Current Scan" className="w-full h-48 object-cover rounded-lg mb-2" />
+                {/* hey */}
                 <div className="flex justify-around w-full text-gray-700">
                     <span>Oxygen Level: 98%</span> | <span>Blood Flow: Normal</span>
                 </div>
@@ -45,7 +45,7 @@ const DeviceUI = () => (
                 variants={slideIn('up', 'tween', 0.7, 1)}
                 className="flex flex-col items-center mb-6"
             >
-                <p className="text-gray-600">Data automatically uploaded to cloud</p>
+                <p className="text-gray-600">Data automatically uploaded to cloud!</p>
                 <button className="bg-yellow-500 text-white py-3 px-8 rounded-md mt-4 hover:bg-yellow-600 transition">
                     Call for Support
                 </button>
@@ -71,8 +71,6 @@ const DeviceUI = () => (
                 variants={slideIn('up', 'tween', 1.1, 1)}
                 className="flex flex-col items-center mb-6"
             >
-                <p className="font-bold text-center mb-2">Position Device as Shown</p>
-                <img src="/placement-guide-placeholder.jpg" alt="Placement Guide" className="w-3/4 h-36 object-cover rounded-lg shadow-md" />
             </motion.div>
 
             {/* Emergency Mode Lock-In */}

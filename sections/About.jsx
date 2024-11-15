@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> NIR Scanner </span> description <span className="font-extrabold">second bold point</span> description <span className="font-extrabold">third bold point</span> description <span className="font-extrabold">fourth bold point</span> description
+        <span className="font-extrabold"> NIRScan Emergency Aid </span> device offers <span className="font-extrabold"> portable, real-time health insights </span> with cloud-based connectivity through satellite WiFi. This robust, affordable scanner provides <span className="font-extrabold">vital internal imaging</span> for emergency and remote settings, connecting on-site responders with global medical experts to deliver accurate and timely support for critical healthcare decisions.
       </motion.p>
 
       <motion.img

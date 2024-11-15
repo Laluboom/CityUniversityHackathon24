@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
@@ -19,10 +19,12 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       </h3>
     ) : (
       <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-        <div className={`${styles.flexCenter} w-[60px] h-[60px] glassmorphism mb-[16px] rounded-[12px]`}>
-          <img src="/headset.svg" alt="headset" className="w-1/2 h-1/2 object-cotain" />
-        </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">Explore</p>
+        <Link href="/pages/Standalone" legacyBehavior>
+          <a className={`${styles.flexCenter} w-[60px] h-[60px] glassmorphism mb-[16px] rounded-[12px]`}>
+            <img src="/headset.svg" alt="headset" className="w-1/2 h-1/2 object-contain" />
+          </a>
+        </Link>
+        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">User Interface</p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
@@ -33,3 +35,10 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
 );
 
 export default ExploreCard;
+
+
+{/* <Link href="/UIlayout" legacyBehavior>
+<a className={`${styles.flexCenter} w-[60px] h-[60px] glassmorphism mb-[16px] rounded-[12px]`}>
+  <img src="/headset.svg" alt="headset" className="w-1/2 h-1/2 object-contain" />
+</a>
+</Link> */}
